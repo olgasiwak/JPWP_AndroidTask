@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    android:background="#6EB5C0">
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="@string/frag_a">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/ic_ac_unit_black_24dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/forecast"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:text="@string/forecast"
+        android:textSize="20sp"
+        android:gravity="center">
+    </TextView>
+</LinearLayout>
